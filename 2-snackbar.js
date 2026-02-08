@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */import{i as s}from"./assets/vendor-BbbuE1sJ.js";const t=document.querySelector(".form"),r=t.querySelector('input[name="delay"]'),m=t.querySelector('button[type="submit"]');m.addEventListener("click",o=>{o.preventDefault();const e=Number(r.value),i=t.elements.state.value;setTimeout(i==="fulfilled"?()=>{s.success({message:`✅ Fulfilled promise in ${e}ms`})}:()=>{s.error({message:`❌ Rejected promise in ${e}ms`})},e)});
+//# sourceMappingURL=2-snackbar.js.map
